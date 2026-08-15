@@ -44,5 +44,3 @@ public class Q4 {
         System.out.println("Inherited double:" + am.calculate(3.5, 2.0));
     }
 }
-
-
