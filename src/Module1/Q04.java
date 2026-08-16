@@ -30,7 +30,7 @@ public class Q4 {
     }
 
     public static void main(String[] args) {
-        Q4 m = new Q4();
+        Q4 m = new Q04();
         System.out.println("Sum:" + m.calculate(10, 5));
         System.out.println("Product:" + m.calculate(4.5, 2.0));
         System.out.println("Subtraction:" + m.calculate(20, 4, 1));
