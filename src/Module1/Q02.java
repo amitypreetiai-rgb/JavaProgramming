@@ -42,7 +42,7 @@ class Division extends MathOperation {
     } 
 }
 
-public class Q2 {
+public class Q02 {
     public static void main(String[] args) {
         MathOperation[] operations = {
             new Addition("Addition", 50, 50),
