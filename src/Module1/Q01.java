@@ -28,7 +28,7 @@ class Student {
     public String getGrade() { return grade; }
 }
 
-public class Q1 {
+public class Q01 {
     public static void main(String[] args) {
         Student s = new Student("Preeti", 85);
         System.out.println("Name: " + s.getName());
