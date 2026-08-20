@@ -1,6 +1,6 @@
 package Module1;
 
-class AdvancedMathOperations extends Q4 {
+class AdvancedMathOperations extends Q04 {
 
     @Override
     int calculate(int a, int b) {
@@ -13,7 +13,7 @@ class AdvancedMathOperations extends Q4 {
     }
 }
 
-public class Q4 {
+public class Q04 {
 
   
     int calculate(int a, int b) {
@@ -30,7 +30,7 @@ public class Q4 {
     }
 
     public static void main(String[] args) {
-        Q4 m = new Q04();
+        Q04 m = new Q04();
         System.out.println("Sum:" + m.calculate(10, 5));
         System.out.println("Product:" + m.calculate(4.5, 2.0));
         System.out.println("Subtraction:" + m.calculate(20, 4, 1));
