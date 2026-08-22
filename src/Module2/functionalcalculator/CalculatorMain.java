@@ -1,4 +1,4 @@
-package Module2.functional;
+package Module2.functionalcalculator;
 
 public class CalculatorMain {
     public static void main(String[] args) {
