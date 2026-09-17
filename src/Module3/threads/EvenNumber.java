@@ -7,7 +7,8 @@ public class EvenNumber extends Thread {
             System.out.println(i);
             try {
                 Thread.sleep(500);
-            } catch (InterruptedException e) {
+            }
+            catch (InterruptedException e) {
                 System.out.println("Thread was interrupted: " + e.getMessage());
             }
         }

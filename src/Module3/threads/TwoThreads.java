@@ -9,7 +9,8 @@ public class TwoThreads {
                 System.out.println("Thread 1");
                 try {
                     Thread.sleep(1000);
-                } catch (InterruptedException e) {
+                }
+                catch (InterruptedException e) {
                     System.out.println("Thread 1 interrupted: " + e.getMessage());
                 }
             }
@@ -20,7 +21,8 @@ public class TwoThreads {
                 System.out.println("Thread 2");
                 try {
                     Thread.sleep(2000);
-                } catch (InterruptedException e) {
+                }
+                catch (InterruptedException e) {
                     System.out.println("Thread 2 interrupted: " + e.getMessage());
                 }
             }
