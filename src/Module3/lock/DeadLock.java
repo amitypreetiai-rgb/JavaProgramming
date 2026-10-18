@@ -45,4 +45,3 @@ public class DeadLock {
         t2.start();
     }
 }
-
